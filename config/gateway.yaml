@@ -1,0 +1,26 @@
+# stats server configuration
+
+server:
+  id: 1         # 服务器 ID
+  debug: true   # 调试模式
+  port: "8080"
+  timezone: "Asia/Shanghai"
+
+
+mysql:
+  username: "xxx"
+  pwd: "xxxxx"
+  network: "tcp"
+  server: "xxxxx"
+  port: 3306
+  database: "xxxxx"
+
+redis:
+  network: "tcp"
+  addr: "0.0.0.0:6379"
+  pwd: ""
+  db: 0
+  poolSize: 100
+  dialTimeout: 3 # 单位(秒)
+  readTimeout: 1 # 单位(秒)
+  writeTimeout: 1 # 单位(秒)
